@@ -12,8 +12,7 @@ export default class App extends Component {
             this.props.location.pathname === '/' || this.props.location.pathname === '/home' ?
               <span>Home</span> : <Link to="/">Home</Link>
           }
-        </span>
-        &nbsp;|&nbsp;
+        </span>&nbsp;|&nbsp;
         <span>
           {
             this.props.location.pathname === '/contact' ?
