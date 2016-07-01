@@ -2,7 +2,7 @@
 // component onto an html element
 import React from 'react';
 import {render} from 'react-dom';
-import {Router} from 'react-router';
+import {Router, browserHistory} from 'react-router';
 import routes from '../common/route';
 
 /**
@@ -12,4 +12,4 @@ import routes from '../common/route';
  * Html5 history api is preferable to hash history because it keeps the url clean e.g. "/contact" as opposed
  * to "/#/contact"
  */
-render(<Router routes={routes} />, document.getElementById('reactDiv'));
+render(<Router routes={routes} history={browserHistory} />, document.getElementById('reactDiv'));
