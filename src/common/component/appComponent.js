@@ -10,9 +10,9 @@ export default class App extends Component {
           {
             /* Activate or deactivate link depending on current route */
             this.props.location.pathname === '/' || this.props.location.pathname === '/home' ?
-              <span>Home</span> : <Link to="/">Home</Link>
+              <span>Home</span>: <Link to="/">Home</Link>
           }
-        </span>&nbsp;|&nbsp;
+        </span> | &nbsp;
         <span>
           {
             this.props.location.pathname === '/contact' ?

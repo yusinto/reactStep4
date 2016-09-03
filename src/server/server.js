@@ -4,7 +4,7 @@ import WebpackConfig from '../../webpack.config.dev';
 import WebpackDevMiddleware from 'webpack-dev-middleware';
 import WebPackHotMiddleware from 'webpack-hot-middleware';
 
-const PORT = 3000;
+const PORT = 3033;
 const app = Express();
 const htmlString = `<!DOCTYPE html>
     <html>
